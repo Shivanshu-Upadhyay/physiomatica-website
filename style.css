@@ -1478,6 +1478,10 @@ a:hover, a:focus {
   margin-bottom: 30px;
 }
 
+#footer .footer-top .footer-info h4{
+  margin-left: 30px;
+}
+
 #footer .footer-top .footer-info h3 {
   font-size: 24px;
   margin: 0 0 20px 0;
@@ -1508,13 +1512,17 @@ a:hover, a:focus {
   transition: 0.3s;
 }
 
+.iconSpace li{
+  margin-bottom: 20px;
+}
+
 #footer .footer-top .social-links a:hover {
   background: #65c9cd;
   text-decoration: none;
 }
 
 #footer .footer-top h4 {
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 600;
   position: relative;
   padding-bottom: 12px;
