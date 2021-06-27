@@ -1623,7 +1623,7 @@ a:hover, a:focus {
   width: 100%;
   margin: auto;
   max-width: 525px;
-  min-height: 600px;
+  min-height: 560px;
   color: black;
   position: relative;
   box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24),
