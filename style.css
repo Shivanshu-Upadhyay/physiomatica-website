@@ -1623,7 +1623,7 @@ a:hover, a:focus {
   width: 100%;
   margin: auto;
   max-width: 525px;
-  min-height: 700px;
+  min-height: 600px;
   color: black;
   position: relative;
   box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24),
@@ -1661,6 +1661,7 @@ a:hover, a:focus {
   text-transform: uppercase;
 }
 .login-html .tab {
+  
   font-size: 15px;
   font-weight: 600;
   margin-bottom: 15px;
@@ -1780,6 +1781,11 @@ a:hover, a:focus {
 
 
 
+
+
+
+
+
 /* ++++++++++++++++++++++++End MODAL+++++++++++++++++++ */
 
 
@@ -1788,3 +1794,26 @@ a:hover, a:focus {
   .removeD ul li{
    list-style-type: none;
   }
+
+  
+ .social-links1 a {
+  font-size: 18px;
+  display: inline-block;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 20px;
+  border-radius: 20px;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+
+ .social-links1 a:hover {
+  
+  text-decoration: none;
+}
+
+
+
