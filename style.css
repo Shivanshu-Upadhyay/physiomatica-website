@@ -1621,9 +1621,8 @@ a:hover, a:focus {
 
 .login-wrap {
   width: 100%;
-  margin: auto;
   max-width: 525px;
-  min-height: 560px;
+  min-height: 455px;
   color: black;
   position: relative;
   box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24),
@@ -1634,13 +1633,12 @@ a:hover, a:focus {
   width: 100%;
   height: 100%;
   position: absolute;
-  padding: 20px 70px 50px 70px;
+  padding: 10px 70px 0px 70px;
   background: white;
   
 
 }
-.login-html .sign-in-htm,
-.login-html .sign-up-htm {
+.login-html .sign-in-htm {
   top: 0;
   left: 0;
   right: 0;
@@ -1651,11 +1649,10 @@ a:hover, a:focus {
   transition: all 0.4s linear;
 }
 .login-html .sign-in,
-.login-html .sign-up,
 .login-form .group .check {
   display: none;
 }
-.login-html .tab,
+
 .login-form .group .label,
 .login-form .group .button {
   text-transform: uppercase;
@@ -1664,20 +1661,15 @@ a:hover, a:focus {
   
   font-size: 15px;
   font-weight: 600;
-  margin-bottom: 15px;
-  padding-bottom: 5px;
-  margin: 0 15px 10px 0;
   display: inline-block;
   border-bottom: 2px solid transparent;
   cursor: pointer;
   
 }
-.login-html .sign-in:checked + .tab,
-.login-html .sign-up:checked + .tab {
+.login-html .sign-in:checked + .tab {
   color: black;
-  border-radius: 30px;
-  background: linear-gradient(to right,#ff105f,#ffad06);
-  padding: 5px 20px; 
+  
+  
 }
 .login-form {
   min-height: 345px;
@@ -1687,7 +1679,7 @@ a:hover, a:focus {
   
 }
 .login-form .group {
-  margin-top: 20px;
+  margin-top: 0px;
   margin-bottom: 15px;
 }
 .login-form .group .label,
@@ -1762,13 +1754,8 @@ a:hover, a:focus {
 .login-html
   .sign-in:checked
   + .tab
-  + .sign-up
-  + .tab
   + .login-form
   .sign-in-htm {
-  transform: rotate(0);
-}
-.login-html .sign-up:checked + .tab + .login-form .sign-up-htm {
   transform: rotate(0);
 }
 
