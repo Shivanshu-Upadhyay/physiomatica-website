@@ -10,6 +10,10 @@
     <!-- Font Icon -->
     <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
 
+    
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
     <!-- Main css -->
     <link rel="stylesheet" href="sign.css">
 </head>
@@ -24,18 +28,18 @@
                 <div class="signup-content">
                     <div class="signup-form">
                         <h2 class="form-title">Sign up</h2>
-                        <form method="POST" class="register-form" id="register-form">
+                        <form class="register-form" id="register-form">
                             <div class="form-group">
                                 <label for="name"><i class="zmdi zmdi-account material-icons-name"></i></label>
                                 <input type="text" name="name" id="name" placeholder="Your Name"  minlength="4"  required/>
                             </div>
                             <div class="form-group">
-                                <label for="name"><i class="zmdi zmdi-hospital-alt"></i></label>
-                                <input type="text" name="Clinic" id="Clinic" placeholder="Clinic Name"  minlength="4" required/>
+                                <label for="clinic"><i class="zmdi zmdi-hospital-alt"></i></label>
+                                <input type="text" name="clinic" id="clinic" placeholder="Clinic Name"  minlength="4" required/>
                             </div>
                             <div class="form-group">
-                                <label for="name"><i class="zmdi zmdi-google-maps"></i></label>
-                                <input type="text" name="Address" id="Address" placeholder="Clinic Address"  minlength="4" required/>
+                                <label for="address"><i class="zmdi zmdi-google-maps"></i></label>
+                                <input type="text" name="address" id="address" placeholder="Clinic Address"  minlength="4" required/>
                             </div>
                             <div class="form-group">
                                 <label for="email"><i class="zmdi zmdi-email"></i></label>
@@ -71,7 +75,20 @@
     </div>
 
     
-    
+    <script>$('form').submit(printObj);
+
+        function printObj(e) {
+            e.preventDefault();
+            debugger;
+            var obj = {
+                name: $('input[name=name]').val(),
+                clinic: $('input[name=clinic]').val(),
+                address: $('input[name=address]').val(),
+                email: $('input[name=email]').val(),
+                passworld: $('input[name=pass]').val(),
+            }
+            console.log(obj);
+        }</script>
     
 </body>
 

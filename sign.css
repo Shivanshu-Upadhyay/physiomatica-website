@@ -413,7 +413,7 @@ label {
 
 label.error {
   position: relative;
-  background: url("../images/unchecked.gif") no-repeat;
+ 
   background-position-y: 3px;
   padding-left: 20px;
   display: block;
@@ -589,4 +589,4 @@ label.valid {
     margin-right: 0px;
     margin-bottom: 10px; } }
 
-/*# sourceMappingURL=style.css.map */
+
