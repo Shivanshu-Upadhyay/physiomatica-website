@@ -866,6 +866,7 @@ section {
   position: relative;
   padding-bottom: 15px;
   height: 40px;
+  color: black;
 }
 
 
@@ -923,7 +924,7 @@ section {
 }
 
 .card[data-radius="none"] {
-    border-radius: 0px;
+    border-radius: 23px;
 }
 .card {
     border-radius: 8px;
